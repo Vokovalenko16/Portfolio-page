@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style/style.css">
 
   </head>
 
@@ -36,7 +36,7 @@
         <section id="banner-section">
           <div class="banner">
             <div class="banner-div">
-              <img class="logo" src="img/backgroundimg.jpg" alt="summer background image"> 
+              <img class="logo" src="./assets/images/backgroundimg.jpg" alt="summer background image"> 
             </div>
          </div> 
         </section>
@@ -125,3 +125,142 @@
   </section>
 
   <!--   Skills-section -->
+
+        
+<!-- // Portfolio -->
+<section id="portfolio-section">
+    <h1 class="skills-header">Recent Projects</h1>
+    <span class="grey-divider"></span>
+  </div>
+  <div class="project-wrap">
+    <div class="project-text-r col">
+      <h2>Train Scheduling</h2>
+      <span class="grey-divider"></span>
+      <p><i>Train Scheduler </i>A simple project I started out with where you enter the data of the train and it sets up the interval schedule </p>
+      <p><span class="bt-span">Build Tools: </span>HTML5, CSS3, JQuery, Javascript, Firebase </p>
+      <div class="demo-buttons">
+          <div class="demo-button">
+              <a href="https://vokovalenko16.github.io/Train-firebase/" target="_blank" >View Live Demo</a>
+          </div>
+          <div class="demo-button">
+              <a href="https://github.com/Vokovalenko16/Train-firebase" target="_blank" >View on Github</a>
+          </div>
+        </div>
+    </div>
+    <div class="project-pic-r col">
+      <img class="project-img" src="./assets/images/train.png" alt="train schedule" height="300" width="550">
+    </div>
+  </div>
+<!-- Section two-->
+  <div class="project-wrap">
+    <div class="project-pic col">
+      <img class="project-img" src="./assets/images/Eminem.png" alt="GiphyAPI project" height="300" width="550">
+    </div>
+    <div class="project-text col">
+      <h2>GiphyAPI</h2>
+      <span class="grey-divider"></span>
+      <p><i>GiphyAPI </i> An application where the user searches something and it gives them GIFs</p>
+      <p><span class="bt-span">Build Tools: </span>, HTML/CSS, JS, JSON/REST API </p>
+      <div class="demo-buttons">
+          <div class="demo-button">
+              <a href="https://vokovalenko16.github.io/GiphyAPI/" target="_blank" >View Live Demo</a>
+          </div>
+          <div class="demo-button">
+              <a href="https://github.com/Vokovalenko16/GiphyAPI" target="_blank" >View on Github</a>
+          </div>
+        </div>
+    </div>
+  </div>
+<!-- Section three-->
+  <div class="project-wrap">
+    <div class="project-text-r col">
+      <h2>A Better Vibe</h2>
+      <span class="grey-divider"></span>
+      <p><i>A Better Vibe </i> A website that uses two APIs in order to find music/videos that are downloadable</p>
+      <p><span class="bt-span">Build Tools: </span>HTML5, Custom CSS3, BootStrap 4, Senamatic UI, JQuery, Javascript </p>
+      <div class="demo-buttons">
+          <div class="demo-button">
+              <a href="https://ellyshachavez.github.io/P-Dove/" target="_blank" >View Live Demo</a>
+          </div>
+          <div class="demo-button">
+              <a href="https://github.com/Ellyshachavez/P-Dove.git" target="_blank" >View on Github</a>
+          </div>
+        </div>
+    </div>
+    <div class="project-pic-r col">
+      <img class="project-img" src="./assets/images/A better vibe.png" alt="fitness project" height="300" width="550">
+    </div>
+  </div>
+  <br>
+<!-- // Contact-form -->
+<section id="contact-section">
+    <div class="contact-main">
+      <h1>Reach out !</h1>
+      <span class="grey-divider"></span>
+      <div class="contact-main-wrapper">
+        <div class="contact-wrapper">
+          <h1>Contact Links</h1>
+          <div class="contact-git">
+              <a href="https://github.com/vokovalenko16"  target="_blank" title="GitHub">
+                <img class="contact-g-img" src="./assets/images/github.png" alt="github">
+              </a>
+          </div>
+          <div class="contact-email">
+              <a href="mailto:vokovalenko16@gmail.com"   title="Email">
+                  <img class="contact-e-img" src="./assets/images/email.png" alt="github">
+                </a>
+          </div>
+        </div>
+        
+        <div class="form-info">
+          <div class="form-wrapper">
+              <h3>Send a Message!</h3>
+              <span class="grey-divider"></span>
+          <form id="contact-form" method="POST" autocomplete="off" action="https://formspree.io/vokovalenko16@gmail.com">
+            <ul class="flex-outer">
+              <li>
+                <label for="first-name">First Name:</label required>
+                  <input type="text" name = "name" id="first-name" placeholder="Enter your First name here">
+                </li>
+              </li>
+              <li>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="_replyto" placeholder="youraddress@yourmail.com">
+              </li>
+              <li>
+                  <label for="message">Message:</label>
+                  <textarea rows="6" id="message" placeholder="Enter your message here" name="message" required></textarea>
+              </li>
+              <li>
+                <button class='button' type="submit" value="Send">Submit</button>
+              </li>
+            </ul>
+          </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- // Footer & contact info -->
+  <footer role="contentinfo">
+   <a href="#" class="sf-back-to-top">
+      <i class="fa-img fas fa-arrow-up"></i>
+   </a>
+      <div class="main-footer">
+        <div class="footer-head">
+          <p> Volodymyr Kovalenko 2019 </p>
+        </div>
+     </div> 
+  </footer>
+    
+</main>
+<!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- WOW JS -->
+<script src="./assets/javascript/wow.min.js" type="text/javascript"></script>
+ <!-- Custom JS -->
+<script src="./assets/javascript/script.js"></script>
+</body>
+</html>
